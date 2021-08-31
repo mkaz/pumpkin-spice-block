@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: SpicedPumpkin;
+    src: url('dk-spiced-pumpkin.otf');
+    font-weight: bold;
+}
+
+.wp-block-mkaz-pumpkin-spice-block .components-text-control__input[type="text"],
+.wp-block-mkaz-pumpkin-spice-block {
+	font-family: SpicedPumpkin;
+	font-size: 72px;
+	color: #DE591C;
+}

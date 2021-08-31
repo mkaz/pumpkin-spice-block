@@ -1,0 +1,22 @@
+{
+	"apiVersion": 2,
+	"name": "mkaz/pumpkin-spice-block",
+	"version": "0.1.0",
+	"title": "Pumpkin Spice Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "A block for Fall season",
+	"textdomain": "pumpkin-spice-block",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"message": {
+			"type": "string",
+			"source": "text",
+			"selector": "div",
+			"default": ""
+		}
+	},
+	"editorScript": "file:./build/index.js"
+}
